@@ -44,3 +44,37 @@
   font-weight: 100;
   text-shadow: 2px 3px 8px rgba(0,150,255,0.91) ;
 }
+
+#navi_bar {
+	text-align: center;
+}
+
+#head_list_item{
+	margin-top: 8px;
+	display: inline-block;
+	margin-bottom: 5px;
+    margin-top: 10px;
+
+}
+#head_list_item>a {
+    padding: 10px 20px;
+    margin:auto;
+	color: black;
+	font-family: calibri;
+	font-size: 2vw;
+    background-color: cornsilk;
+    text-decoration: none;
+    border-radius: 7px;
+
+}
+#head_list_item>a:hover {
+	color: white;
+	background-color: lightseagreen;
+	text-decoration: none;
+    font-weight: 600;
+    border-radius: 7px;
+}
+
+#head_list_item>a:visited, #head_list_item>a:active {
+	text-decoration: none;
+}
