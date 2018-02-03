@@ -1,4 +1,6 @@
-
+html {
+    padding: 2px;
+}
 #ieee_logo{
 /*    border: 4px solid;*/
     height: 70px;
@@ -66,4 +68,23 @@
 
 #head_list_item>a:visited, #head_list_item>a:active {
 	text-decoration: none;
+}
+
+h1 {
+    background: darkblue;
+    color: white;
+    text-align: center;
+    height: auto;
+    font-size: 2.2vw;
+    padding: 14px 16px;
+}
+.staff {
+	position: relative;
+	width: 100%;
+	height: 470px;
+}
+.img {
+	width: 100%;
+	height: 100%;
+	padding-left: 2px;
 }
