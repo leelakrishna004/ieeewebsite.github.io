@@ -86,3 +86,46 @@
 	width: 100%;
 	padding: 5px;
 }
+#t_container {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#t_text{
+    opacity: 0.7;
+    font-family:'Lato',sans-serif;
+    font-size: 1.6vw;
+    text-align: left;
+    width: 80%;
+    padding: 5px;
+    text-align: justify;
+    margin: auto;
+    font-weight: normal;
+
+}
+#Headingtag {
+    font-family: 'Lato',sans-serif;
+    color: black;
+    text-align: center;
+    font-size: 2.2vw;
+    margin-top: 2px;
+    padding:5px;
+    width:30%;
+    margin: auto;
+    border-radius: 7px;
+    border-radius: 100px 10px 100px 10px;
+    font-weight: 510;
+}
+
+#visiontag {
+   font-family: 'Lato',sans-serif;
+    color: black;
+    text-align: center;
+    font-size: 2.2vw;
+    margin-top: 6px;
+    padding:5px;
+    width:25%;
+    margin: auto;
+    
+     font-weight: 510;
+   
+}
