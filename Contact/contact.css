@@ -71,3 +71,8 @@
 #head_list_item>a:visited, #head_list_item>a:active {
 	text-decoration: none;
 }
+#contact_form{
+    width:100%;
+    margin: auto;
+    
+}
