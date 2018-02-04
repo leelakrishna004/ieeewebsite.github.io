@@ -10,7 +10,8 @@
     
 }
 .row{
-    background-color:  lightyellow;
+    background-color:  powderblue;
+    border-bottom: 1px solid black;
 }
 
 #ieee_logo{
@@ -124,7 +125,7 @@
     margin: auto;
     color:white;
     font-weight: 200;
-    background-color: orange;
+    background-color: royalblue;
     border-radius: 100px 10px 100px 10px;
 }
 
