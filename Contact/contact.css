@@ -55,14 +55,14 @@
 	color: black;
 	font-family: calibri;
 	font-size: 2vw;
-    background-color: cornsilk;
+    
     text-decoration: none;
     border-radius: 7px;
 
 }
 #head_list_item>a:hover {
 	color: white;
-	background-color: lightseagreen;
+	background-color: royalblue;
 	text-decoration: none;
     font-weight: 600;
     border-radius: 7px;
@@ -74,5 +74,57 @@
 #contact_form{
     width:100%;
     margin: auto;
+  
+}
+
+
+   
+#foot {
+    margin:1px;
+    background-color: darkgrey;
+}
+.footerlinks {
+    color: white;
+    font-family: calibri;
+    font-size: 18px;
+    
+    
     
 }
+.footerlinks:hover {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+footer ul {
+    list-style-type: none;
+    display: block;
+}
+footer {
+    font-family: calibri;
+    margin: auto;
+  
+      background-color: darkgrey;
+}
+#f_head2,#f_head1,#f_head3 {
+    font-size: 22px;
+    border-bottom: 2px solid white;
+}
+
+    
+        .jaffa {
+            width: 100%;
+            margin: auto;
+            font-family: calibri;
+            font-size: 20px;
+            color:white;
+            background: black;
+            text-align: center;
+            border: 4px solid black;
+        }
+
+@media only screen and (max-width: 640px) {
+   #box1,#box2,#box3 {
+     text-align: center;
+   }
+       
