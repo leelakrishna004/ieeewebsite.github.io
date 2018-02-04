@@ -82,6 +82,7 @@
 #foot {
     margin:1px;
     background-color: darkgrey;
+    position: static;
 }
 .footerlinks {
     color: white;
@@ -126,5 +127,6 @@ footer {
 @media only screen and (max-width: 640px) {
    #box1,#box2,#box3 {
      text-align: center;
+       height: 120px;
    }
        
