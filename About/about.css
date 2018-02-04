@@ -140,6 +140,12 @@
     font-size: 18px;
     
     
+    
+}
+.footerlinks:hover {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
 }
 footer ul {
     list-style-type: none;
@@ -172,4 +178,3 @@ footer {
    #box1,#box2,#box3 {
      text-align: center;
    }
-       
