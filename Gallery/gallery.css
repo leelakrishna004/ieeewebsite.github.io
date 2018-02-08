@@ -87,7 +87,7 @@
 }
 
 
-/*#foot {
+#foot {
     margin:1px;
     background-color: darkgrey;
 }
@@ -116,7 +116,7 @@ footer {
 }
 #f_head2,#f_head1,#f_head3 {
     font-size: 22px;
-    border-bottom: 2px solid white;
+    
 }
 
     
@@ -135,133 +135,3 @@ footer {
    #box1,#box2,#box3 {
      text-align: center;
    }
-  */  
-    
-    
-    
-    
-
-
-#foot_head1 {
-padding-top: 10px;}
-
-
-.footer1 {
-    background: white;
-	padding-top: 40px;
-	padding-right: 0;
-	padding-bottom: 20px;
-	padding-left: 0;/*	border-top-width: 4px;
-	border-top-style: solid;
-	border-top-color: #003;*/
-}
-#foot {
-    background: white;
-    color: white;
-}
-
-
-
-.title-widget {
-	color: #898989;
-	font-size: 20px;
-	font-weight: 300;
-	line-height: 1;
-	position: relative;
-	text-transform: uppercase;
-	font-family: 'Fjalla One', sans-serif;
-	margin-top: 0;
-	margin-right: 0;
-	margin-bottom: 25px;
-	margin-left: 0;
-	padding-left: 28px;
-}
-
-.title-widget::before {
-    background-color: #ea5644;
-    content: "";
-    height: 22px;
-    left: 0px;
-    position: absolute;
-    top: -2px;
-    width: 5px;
-}
-
-
-
-.widget_nav_menu ul {
-    list-style: outside none none;
-    padding-left: 0;
-}
-
-.widget_archive ul li {
-    background-color: rgba(0, 0, 0, 0.3);
-    content: "";
-    height: 3px;
-    left: 0;
-    position: absolute;
-    top: 7px;
-    width: 3px;
-}
-
-
-.widget_nav_menu ul li {
-    font-size: 13px;
-    font-weight: 700;
-    line-height: 20px;
-	position: relative;
-    text-transform: uppercase;
-	border-bottom: 1px solid rgba(0, 0, 0, 0.05);
-    margin-bottom: 7px;
-    padding-bottom: 7px;
-	width:95%;
-}
-.footlinks {
-    color: royalblue;
-}
-
-
-
-.title-median {
-    color: #636363;
-    font-size: 20px;
-    line-height: 20px;
-    margin: 0 0 15px;
-    text-transform: uppercase;
-	font-family: 'Fjalla One', sans-serif;
-}
-
-.footerp p {font-family: 'Gudea', sans-serif; }
-
-
-
-
-
-
-
-.footer-bottom {
-    background-color: #15224f;
-    min-height: 30px;
-    width: 100%;
-}
-.copyright {
-    color: #fff;
-    line-height: 30px;
-    min-height: 30px;
-    padding: 7px 0;
-}
-.design {
-    color: #fff;
-    line-height: 30px;
-    min-height: 30px;
-    padding: 7px 0;
-    text-align: right;
-}
-.design a {
-    color: #fff;
-}
-
-
-/************************************************************
-*************************Footer******************************
-*************************************************************/
