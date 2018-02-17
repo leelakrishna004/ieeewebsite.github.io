@@ -3,6 +3,10 @@
     margin: 0px;
 
 }
+html {
+    padding-left: 10px;
+    padding-right: 10px;
+}
 @media only screen and (max-width: 480px) {
     
 }
@@ -10,7 +14,11 @@
     
 }
 .row{
-    background-color:  lightyellow;
+    background-color: lightgrey;
+    color: white;
+    font-family: 'Lato',sans-serif;
+    
+
 }
 
 #ieee_logo{
@@ -34,6 +42,7 @@
     width: 100%;
     font-size: 3.8vw;
     margin-top:2vh;
+   
     
 }
 #head_text {
@@ -41,34 +50,38 @@
   border: none;
   font: normal/ Arial, Helvetica, sans-serif;
   font-weight: 100;
-  text-shadow: 2px 3px 8px rgba(0,150,255,0.91) ;
+  /*text-shadow: 2px 3px 8px rgba(0,150,255,0.91) ;*/
 }
 
 #navi_bar {
 	text-align: center;
+    background-color: lightgrey;
+    border: 2px solid white;
 }
 
 #head_list_item{
-	margin-top: 8px;
+
+    margin-top: 8px;
 	display: inline-block;
-	margin-bottom: 5px;
-    margin-top: 10px;
+     
+    background-color: lightgrey;
 
 }
 #head_list_item>a {
-    padding: 10px 20px;
+    
+    padding: 6px 10px;
     margin:auto;
 	color: black;
-	font-family: calibri;
-	font-size: 2vw;
-    background-color: cornsilk;
+	font-family: 'Lato',sans-serif;
+	font-size: 1.6vw;
+   
     text-decoration: none;
-    border-radius: 7px;
+   
 
 }
 #head_list_item>a:hover {
 	color: white;
-	background-color: lightseagreen;
+	background-color: darkblue;
 	text-decoration: none;
     font-weight: 600;
     border-radius: 7px;
@@ -84,8 +97,8 @@
 #img_slider{
 	width: 100%;
 	margin: auto;
-	margin-top: 10px;
-	margin-bottom: 5px;
+	
+	
     opacity: 0.99;    
 }
 
@@ -99,6 +112,16 @@
     font-weight: 200;
     background-color: orange;
     border-radius: 100px 10px 100px 10px;
+}
+#iiitdm_title2{
+    width: 100%;
+   font-weight: bold;
+    text-align: center;
+    font-size: 2vw;
+    font-family: 'Lato',sans-serif;
+    padding: 5px;
+    text-decoration-line: underline;
+    
 }
 
 #about_ieee_img{
@@ -119,7 +142,7 @@
 #iiitdm_title {
     width: 25%;
 	text-align: center;
-	font-size: 2.5vw;
+	font-size: 3vh;
 	font-family: calibri; 
     margin: auto;
     color:white;
@@ -149,10 +172,13 @@
 }
 #t_text{
 /*    border: 1px solid;*/
-    font-size: 100%;
+    font-size: 128%;
     float: left;
     font-family: serif; 
-    text-align: justify;    
+    text-align: justify;
+    padding-left: 0.75vw;
+    padding-right: 0.75vw;
+    font-family: 'Lato',sans-serif;
 }
 #t{
 /*    border: 1px solid;*/
@@ -290,10 +316,13 @@ fh5co-bg {
 
 #foot {
     margin:1px;
-    background-color: darkgrey;
+    background-color: ghostwhite;
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .footerlinks {
-    color: white;
+    color: black;
     font-family: calibri;
     font-size: 18px;
     
@@ -312,13 +341,25 @@ footer ul {
 footer {
     font-family: calibri;
     margin: auto;
-  
-      background-color: darkgrey;
+    text-align: center;
+    background-color: ghostwhite;
 }
 #f_head2,#f_head1,#f_head3 {
     font-size: 22px;
     
 }
+
+#LN{
+    border: 0px solid;
+	height: 400px;
+	width:95%; 
+/*	box-shadow: 0px 0px 2px grey;*/
+	margin: auto;
+	margin-bottom: 100px;
+	border: 1px solid black;
+    font-family: cursive;
+}
+
 
     
         .jaffa {
@@ -332,7 +373,24 @@ footer {
             border: 4px solid black;
         }
 
-@media only screen and (max-width: 640px) {
+
+    
+    @media only screen and (max-width: 640px) {
    #box1,#box2,#box3 {
-     text-align: center;
+     text-align: justify;
+       padding-left: 30%;
+       padding-bottom: 0px;
    }
+    
+    @media only screen and (max-width: 640px) {
+   #iiitdm_title2 {
+     
+       font-size: 18px;
+   }
+       #head_list_item>a{
+     
+       font-size: 16px;
+   }
+            
+    
+        }
