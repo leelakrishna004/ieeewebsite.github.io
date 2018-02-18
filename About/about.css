@@ -9,17 +9,17 @@ html {
 }
 #ieee_logo{
 /*    border: 4px solid;*/
-    height: 70px;
+    height: 100px;
     width: 100%;
     margin-top:0.5vw;
 
 }
 #iiit_logo{
 /*    border: 4px solid;*/
-    height: 70px;
+    height:100px;
     width: 80%;
     float: right;
-    margin-top:0.5vw;
+    margin-top:0.2vw;
 }
 .row{
     background-color: lightgrey;
@@ -195,6 +195,7 @@ footer {
     float: left;
     padding:20px;
 }
+
 @media only screen and (max-width: 640px) {
    #box1,#box2,#box3 {
      text-align: justify;

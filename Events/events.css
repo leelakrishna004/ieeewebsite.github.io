@@ -10,14 +10,14 @@ html {
 }
 #ieee_logo{
 /*    border: 4px solid;*/
-    height: 70px;
+    height: 100px;
     width: 100%;
     margin-top:0.5vw;
 
 }
 #iiit_logo{
 /*    border: 4px solid;*/
-    height: 70px;
+    height: 100px;
     width: 80%;
     float: right;
     margin-top:0.5vw;
@@ -84,11 +84,8 @@ html {
 }
 
 #eventsul {
-    
     font-family:'Lato',sans-serif;
-    
-    list-style-type: none;
-    padding-top: 30px;
+    padding:10px;
     text-align: center;
    
 }
@@ -96,8 +93,8 @@ html {
     font-family:'Lato',sans-serif;
     color: black;
     font-size: 1.4vw;
-    margin: auto;
-      width: 100%;
+
+    width: 100%;
 }
 .eventnames:hover {
     color: darkorange;
@@ -111,11 +108,12 @@ font-family: 'Lato',sans-serif;
 .Events {
     border: 2px solid white;
     width: 45%;
-    height: 200px;
-    margin: 0px auto;
-    text-align: center;
+    margin:auto;
+    padding-left: 20px;
     list-style-type: none;
-     background-color: lightblue;
+     background-color: #d6e5ff;
+    box-shadow: 1px 1px 15px 9px #4f4f4f; 
+ 
 }
 
 
@@ -164,7 +162,7 @@ footer {
     right: 0;
     z-index: 1;
     background-image: url(1.jpg);
-   opacity: 0.3;
+    opacity: 0.3;
 }
 
 .Events {
@@ -178,17 +176,30 @@ footer {
 }
 
     
-        .jaffa {
-            width: 100%;
-            margin: auto;
-            font-family: calibri;
-            font-size: 20px;
-            color:white;
-            background: black;
-            text-align: center;
-            border: 4px solid black;
-        }
-
+.jaffa {
+    width: 100%;
+    margin: auto;
+    font-family: calibri;
+    font-size: 20px;
+    color:white;
+    background: black;
+    text-align: center;
+    border: 4px solid black;
+}
+#register{
+    height: 20px;
+    width: auto;
+    margin-left:15px;
+}
+#More{
+    margin-left:10px;
+    font-family: monospace;
+    font-size: 15px;
+}
+#More:hover{
+    font-weight:800;
+    font-size: 19px;
+}
 @media only screen and (max-width: 640px) {
    #box1,#box2,#box3 {
      text-align: justify;
@@ -208,5 +219,5 @@ footer {
     }
             
     
-        }
+}
        
