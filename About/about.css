@@ -103,7 +103,7 @@ html {
 }
 #about_us_img {
 	width: 100%;
-	padding: 5px;
+	
 }
 #t_container {
    
@@ -210,18 +210,47 @@ footer {
     margin-left: 22%;
 }
      #fac1,#fac2,#fac3 {
-        width: 200px;
-         height: 200px;
-         border: 1px solid black;
+        width: 15vw;
+         height: 15vw;
+         margin: 0px;
          padding: 0px;
          margin-right: 60px;
          
      }
 .imageclass{
     width: 100%;
-    height: 100%;
+    height: 85%;
+    border-radius: 70px;
+    margin-bottom: 5px;
     
 }
 .fac_names {
     color: black;
+    text-align: center;
+    font-family: 'Lato',sans-serif;
+    font-size: 1.25vw;
+  
+   
 }
+.imageclass:hover {
+    opacity: 0.8;
+}
+@media only screen and (max-width: 640px) {
+    #fac1,#fac2,#fac3 {
+        height: 60vw;
+    }
+         
+.imageclass{
+    width: 50vw;
+    height: 40vw;
+    border-radius: 70px;
+    margin-bottom: 10px;
+    
+}
+    .fac_names {
+    color: black;
+   font-family: 'Lato',sans-serif;
+    font-size: 14px;
+    width: 50vw;   
+}
+                 }
