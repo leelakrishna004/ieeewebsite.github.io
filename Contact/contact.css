@@ -18,7 +18,9 @@
     margin-top:0.5vw;
 }
 .row{
-    background-color:  lightyellow;
+   background-color: lightgrey;
+    color: white;
+    font-family: 'Lato',sans-serif;
 }
 
 #head_text{
@@ -81,11 +83,13 @@
    
 #foot {
     margin:1px;
-    background-color: darkgrey;
-    position: static;
+    background-color: ghostwhite;
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .footerlinks {
-    color: white;
+    color: black;
     font-family: calibri;
     font-size: 18px;
     
@@ -104,8 +108,8 @@ footer ul {
 footer {
     font-family: calibri;
     margin: auto;
-  
-      background-color: darkgrey;
+    text-align: center;
+    background-color: ghostwhite;
 }
 #f_head2,#f_head1,#f_head3 {
     font-size: 22px;
