@@ -84,19 +84,19 @@ html {
 	text-decoration: none;
 }
 #image{
-    width: 30%;
+    width: 29%;
     margin: 5px;  
     
 }
-#image:hover {
-/*
+/*#image:hover {
+
     -ms-transform: scale(1.5); 
     -webkit-transform: scale(1.5); 
-*/
-    width:35%; 
-    /*transition: all 2s ease;*/
-}
 
+    width:35%; 
+    /*transition: all 2s ease;
+}
+*/
 
 #foot {
     margin:1px;
@@ -151,15 +151,12 @@ footer {
        padding-left: 30%;
        padding-bottom: 0px;
    }
-    
-}
-@media only screen and (max-width: 640px) {
-  
-       #head_list_item>a{
+    #head_list_item>a{
      
        font-size: 16px;
    }
+    #image{
+        width:45%;
+    }
     
-            
-    
-        }
+}
