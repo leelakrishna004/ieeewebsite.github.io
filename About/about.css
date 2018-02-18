@@ -3,6 +3,10 @@
     margin: 0px;
 
 }
+html {
+    padding-left: 10px;
+    padding-right: 10px;
+}
 #ieee_logo{
 /*    border: 4px solid;*/
     height: 70px;
@@ -37,34 +41,38 @@
   border: none;
   font: normal/ Arial, Helvetica, sans-serif;
   font-weight: 100;
-  text-shadow: 2px 3px 8px rgba(0,150,255,0.91) ;
+  /*text-shadow: 2px 3px 8px rgba(0,150,255,0.91) ;*/
 }
 
 #navi_bar {
 	text-align: center;
+    background-color: lightgrey;
+    border: 2px solid white;
 }
 
 #head_list_item{
-	margin-top: 8px;
+
+    margin-top: 8px;
 	display: inline-block;
-	margin-bottom: 5px;
-    margin-top: 10px;
+     
+    background-color: lightgrey;
 
 }
 #head_list_item>a {
-    padding: 10px 20px;
+    
+    padding: 6px 10px;
     margin:auto;
 	color: black;
-	font-family: calibri;
-	font-size: 2vw;
-    background-color: cornsilk;
+	font-family: 'Lato',sans-serif;
+	font-size: 1.6vw;
+   
     text-decoration: none;
-    border-radius: 7px;
+   
 
 }
 #head_list_item>a:hover {
 	color: white;
-	background-color: lightseagreen;
+	background-color: darkblue;
 	text-decoration: none;
     font-weight: 600;
     border-radius: 7px;
@@ -75,60 +83,63 @@
 }
 
 #about_us_text{
-    background-color: limegreen;
+    /*background-color: limegreen;
     color: white;
     text-align: center;
     font-size: 2vw;
     padding:5px;
     width:15%;
     margin: auto;
-    border-radius: 7px;
+    border-radius: 7px;*/
+   
+    width: 100%;
+   font-weight: bold;
+    text-align: center;
+    font-size: 3vw;
+    font-family: 'Lato',sans-serif;
+    padding: 5px;
+   
+    
 }
 #about_us_img {
 	width: 100%;
 	padding: 5px;
 }
 #t_container {
-    margin-top: 5px;
-    margin-bottom: 5px;
+   
 }
 #t_text{
     opacity: 0.7;
     font-family:'Lato',sans-serif;
     font-size: 1.6vw;
-    text-align: left;
+    
     width: 80%;
-    padding: 5px;
+  
     text-align: justify;
-    margin: auto;
+    margin: 0px auto;
     font-weight: normal;
 
 }
 #Headingtag {
     font-family: 'Lato',sans-serif;
     color: black;
-    text-align: center;
+    text-decoration: underline;
     font-size: 2.2vw;
-    margin-top: 2px;
-    padding:5px;
-    width:30%;
-    margin: auto;
-    border-radius: 7px;
-    border-radius: 100px 10px 100px 10px;
+    padding: 15px;
+    width:100%;
+   text-align: center;
     font-weight: 510;
 }
 
 #visiontag {
    font-family: 'Lato',sans-serif;
     color: black;
-    text-align: center;
+    text-decoration: underline;
     font-size: 2.2vw;
-    margin-top: 6px;
-    padding:5px;
-    width:25%;
-    margin: auto;
-    
-     font-weight: 510;
+    padding: 15px;
+    width:100%;
+   text-align: center;
+    font-weight: 510;
    
 }
 
@@ -143,9 +154,6 @@
     color: black;
     font-family: calibri;
     font-size: 18px;
-    
-    
-    
 }
 .footerlinks:hover {
     text-decoration: none;
@@ -183,3 +191,37 @@ footer {
    #box1,#box2,#box3 {
      text-align: center;
    }
+}
+ @media only screen and (max-width: 640px) {
+   #about_us_text {
+     
+       font-size: 18px;
+   }
+       #head_list_item>a,#t_text,#Headingtag,#visiontag{
+     
+       font-size: 16px;
+   }
+}
+
+#team_container {
+    
+    align-items: center;
+    background-color: white;
+    margin-left: 22%;
+}
+     #fac1,#fac2,#fac3 {
+        width: 200px;
+         height: 200px;
+         border: 1px solid black;
+         padding: 0px;
+         margin-right: 60px;
+         
+     }
+.imageclass{
+    width: 100%;
+    height: 100%;
+    
+}
+.fac_names {
+    color: black;
+}

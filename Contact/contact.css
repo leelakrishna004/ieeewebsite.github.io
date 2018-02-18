@@ -37,34 +37,38 @@
   border: none;
   font: normal/ Arial, Helvetica, sans-serif;
   font-weight: 100;
-  text-shadow: 2px 3px 8px rgba(0,150,255,0.91) ;
+  /*text-shadow: 2px 3px 8px rgba(0,150,255,0.91) ;*/
 }
 
 #navi_bar {
 	text-align: center;
+    background-color: lightgrey;
+    border: 2px solid white;
 }
 
 #head_list_item{
-	margin-top: 8px;
+
+    margin-top: 8px;
 	display: inline-block;
-	margin-bottom: 5px;
-    margin-top: 10px;
+     
+    background-color: lightgrey;
 
 }
 #head_list_item>a {
-    padding: 10px 20px;
+    
+    padding: 6px 10px;
     margin:auto;
 	color: black;
-	font-family: calibri;
-	font-size: 2vw;
-    background-color: cornsilk;
+	font-family: 'Lato',sans-serif;
+	font-size: 1.6vw;
+   
     text-decoration: none;
-    border-radius: 7px;
+   
 
 }
 #head_list_item>a:hover {
 	color: white;
-	background-color: lightseagreen;
+	background-color: darkblue;
 	text-decoration: none;
     font-weight: 600;
     border-radius: 7px;
