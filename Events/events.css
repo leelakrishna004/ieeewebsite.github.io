@@ -110,7 +110,7 @@ font-family: 'Lato',sans-serif;
 }
 .Events {
     border: 2px solid white;
-    width: 400px;
+    width: 45%;
     height: 200px;
     margin: 0px auto;
     text-align: center;
@@ -151,6 +151,27 @@ footer {
     text-align: center;
     background-color: ghostwhite;
 }
+#transpimg{
+   position: relative;
+}
+
+#transpimg:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background-image: url(1.jpg);
+   opacity: 0.3;
+}
+
+.Events {
+    position: relative; 
+    z-index: 2;
+}
+
 #f_head2,#f_head1,#f_head3 {
     font-size: 22px;
     border-bottom: 2px solid white;
@@ -181,6 +202,9 @@ footer {
         }
     .eventnames{
         font-size: 16px;
+    }
+    .Events {
+        width: 90%;
     }
             
     
