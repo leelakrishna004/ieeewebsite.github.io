@@ -142,10 +142,20 @@ html {
     font-weight: 510;
    
 }
-#immage {
-    width: 200px;
-    height: 150px;
+#item {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 250px;
+    margin-top: 50px;
+    padding: 10px;
 }
+.img-thumbnail{
+    border-radius: 500px;
+}
+
+
+
 
 #foot {
     margin:1px;
@@ -190,11 +200,6 @@ footer {
             text-align: center;
             border: 4px solid black;
         }
-#bo{
-    width:30%;
-    float: left;
-    padding:20px;
-}
 
 @media only screen and (max-width: 640px) {
    #box1,#box2,#box3 {
@@ -214,7 +219,6 @@ footer {
          width:100%;
      }
 }
-
 
 
 
