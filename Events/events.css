@@ -5,8 +5,8 @@
 }
 
 html {
-    padding-left: 2px;
-    padding-right: 2px;
+    padding-left: 4px;
+    padding-right: 4px;
 }
 #ieee_logo{
 /*    border: 4px solid;*/
@@ -23,7 +23,7 @@ html {
     margin-top:0.5vw;
 }
 .row{
-    background-color: lightgrey;
+   background-color: lightgrey;
     color: white;
     font-family: 'Lato',sans-serif;
 }
@@ -44,7 +44,6 @@ html {
   font-weight: 100;
   /*text-shadow: 2px 3px 8px rgba(0,150,255,0.91) ;*/
 }
-
 
 #navi_bar {
 	text-align: center;
@@ -83,21 +82,10 @@ html {
 #head_list_item>a:visited, #head_list_item>a:active {
 	text-decoration: none;
 }
-#image{
-    width: 30%;
-    margin: 5px;  
-    
-}
-#image:hover {
-/*
-    -ms-transform: scale(1.5); 
-    -webkit-transform: scale(1.5); 
-*/
-    width:35%; 
-    transition: all 2s ease;
-}
 
 
+
+   
 #foot {
     margin:1px;
     background-color: ghostwhite;
@@ -130,7 +118,7 @@ footer {
 }
 #f_head2,#f_head1,#f_head3 {
     font-size: 22px;
-    
+    border-bottom: 2px solid white;
 }
 
     
@@ -152,14 +140,12 @@ footer {
        padding-bottom: 0px;
    }
     
-}
-@media only screen and (max-width: 640px) {
   
        #head_list_item>a{
      
        font-size: 16px;
    }
-    
             
     
         }
+       
