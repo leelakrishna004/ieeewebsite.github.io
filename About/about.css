@@ -142,6 +142,10 @@ html {
     font-weight: 510;
    
 }
+#immage {
+    width: 200px;
+    height: 150px;
+}
 
 #foot {
     margin:1px;
