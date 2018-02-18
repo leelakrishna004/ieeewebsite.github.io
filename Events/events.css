@@ -83,6 +83,41 @@ html {
 	text-decoration: none;
 }
 
+#eventsul {
+    
+    font-family:'Lato',sans-serif;
+    
+    list-style-type: none;
+    padding-top: 30px;
+    text-align: center;
+   
+}
+.eventnames {
+    font-family:'Lato',sans-serif;
+    color: black;
+    font-size: 1.4vw;
+    margin: auto;
+      width: 100%;
+}
+.eventnames:hover {
+    color: darkorange;
+}
+h2 {
+font-family: 'Lato',sans-serif;
+    font-weight: bold;
+    margin:auto;
+    text-align: center;
+}
+.Events {
+    border: 2px solid white;
+    width: 400px;
+    height: 200px;
+    margin: 0px auto;
+    text-align: center;
+    list-style-type: none;
+     background-color: lightblue;
+}
+
 
 
    
@@ -141,10 +176,12 @@ footer {
    }
     
   
-       #head_list_item>a{
-     
-       font-size: 16px;
-   }
+    #head_list_item>a{
+     font-size: 16px;
+        }
+    .eventnames{
+        font-size: 16px;
+    }
             
     
         }
