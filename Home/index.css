@@ -12,10 +12,7 @@ html {
     background-color: lightgrey;
     color: white;
     font-family: 'Lato',sans-serif;
-    
-
 }
-
 #ieee_logo{
 /*    border: 4px solid;*/
     height: 80px;
@@ -25,8 +22,7 @@ html {
 }
 
 #logos{
-    background-image:url(banner-background12.jpg);
-    z-index: 1;
+    /%background-image:url(banner-background12.jpg);%/
 }
 #iiit_logo{
 /*    border: 4px solid;*/
@@ -38,10 +34,10 @@ html {
 #head_text{
     word-wrap:normal;
     text-align: center;
-    text-shadow: 2px 3px 8px rgba(0,150,255,0.91) ;
+/*text-shadow: 2px 3px 8px rgba(0,150,255,0.91) ;*/
     font-size: 4vw;
     margin-top: 1vw;
-    color: mintcream;
+    color: white;
 }
 
 #navi_bar {
