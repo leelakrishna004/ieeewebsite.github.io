@@ -20,10 +20,6 @@ html {
     margin-top:0.9vw;
 
 }
-
-#logos{
-    /%background-image:url(banner-background12.jpg);%/
-}
 #iiit_logo{
 /*    border: 4px solid;*/
     height: 80px;
@@ -31,6 +27,11 @@ html {
     float: right;
     margin-top: 1vw;
 }
+
+#logos{
+    /*background-image:url(banner-background12.jpg);*/
+}
+
 #head_text{
     word-wrap:normal;
     text-align: center;
@@ -286,6 +287,17 @@ footer {
        #head_list_item>a{
      
        font-size: 16px;
+   }
+}
+   @media only screen and (max-width: 700px) {
+   	#iiit_logo{
+
+       height: 70%;
+   }
+   	#ieee_logo{
+       align-self: center;
+       height: 11vw;
+    
    }
 }
     
